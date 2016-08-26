@@ -1,0 +1,41 @@
+****************************************************
+Vanessa White		0832498
+CIS2500    			A3
+March 14th, 2013
+****************************************************
+
+
+************
+Compilation
+************
+In the LTX Terminal, cd to CIS2500/coursework/A3. Then, type in make to compile.
+
+***********************
+Running the program(s)
+***********************
+Type in bin/run "assets/filename.txt" to compile the program.
+If you do not enter anything for the filename then the program will exit. You must put the directory and file.
+
+The program will open to the ncurses window and show the room.
+
+
+You use w,a,s,d to move your player
+
+They are able to pick up items and not move through walls.
+For this one, you can move anywhere around the terminal.
+It will replace picked up characters and with the floor tiles
+
+*****************
+Known Limitations
+*****************
+Alright, prepare for disaster:
+
+Does not print out 6 rooms
+Can only print the first line - do not put other lines unless you hate me
+Doesn't replace doors
+Doesn't show inventory
+Doesn't print last item in the file
+Can't warp to different rooms because well, there is only one room
+xPosition for the items stay constant from the first item found
+It works on the pi sometimes, other times the walls won't draw
+it does compile on my laptop

@@ -1,0 +1,32 @@
+*****************************TESTING DOC******************************
+
+How this document is formatted:
+1. What should happen
+2.Expected results
+3. Actual results
+
+MOVEMENT:
+-Block movement through walls and monsters, use wasd to move around
+-Cursor should move with @ sign and not be able to move through walls and monsters
+-Does what it should regarding blocking, doesn't put back stuff it goes over (stairs, doors)
+
+ITEMS:
+-Be able to pick up items, and store into an inventory, replace the item with a floor tile
+-Item gets written to a file and the floor shows after the player moves
+-Able to read item and show what they picked up, stores into a file and replaces file tile
+
+INVENTORY:
+-After items picked up, store to file to print at end of game
+-Mvinch reads it and makes it go into file
+-Mvinch reads it, not storing to the file or to function
+
+PRINTING ROOMS:
+-Print everything from parsed strings accordingly to where the coordinates are 
+-Printing flawless for the walls and tiles
+-Had to add a '-' to the walls to make it even, other than that works great
+
+PRINTING DOORS:
+-Print in corresponding spot
+-Show in the wall and over write the '-' or '|'
+-Prints correctly, no issues
+

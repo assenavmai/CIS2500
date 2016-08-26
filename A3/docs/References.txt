@@ -1,0 +1,7 @@
+Code Used For Reference:
+lectureCode by Justin Carlvaho - Structs as an array and reading files
+Fileio.c by Judi McCuaig from the examples folder
+A1 assignment for movement and blocking barriers of the player. 
+
+Collaborator:
+Joline Barrett - Figured algorithm for item parsing and placing the items down
