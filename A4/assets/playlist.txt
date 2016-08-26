@@ -1,0 +1,5 @@
+Rihanna, You Da One, 200, 3194.88, a
+Beyonce, Partition, 319, 5027.84, a
+Azealia Banks, Atm Jam, 244, 3819.52, b
+Meek Mill, Amen, 193, 8437.76, a
+Marianas Trench, Stutter, 201, 8007.68, a 
