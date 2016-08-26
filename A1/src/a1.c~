@@ -1,0 +1,29 @@
+#include <ncurses.h>
+
+int main(void)
+{
+  
+    int borderW, borderH, i;
+
+    borderW = 50;
+    borderH = 25;
+
+    initscr();
+
+    for (i=0; i<borderW; i++)
+    {
+      mvaddch(0, i, '.');
+    }
+
+    for (i=0; i<borderW; i++)
+    {
+      mvaddch(borderH, i, '.');
+    }
+
+     refresh();
+     getch(); 
+     endwin();
+     
+     return  0;
+}
+

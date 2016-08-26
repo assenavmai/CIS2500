@@ -1,0 +1,6 @@
+                                                    Testing
+
+
+How I tested the program:
+
+	I simply tested if the collision on the borders worked and if the cursor moved accordingly. 

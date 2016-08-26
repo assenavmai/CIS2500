@@ -1,0 +1,13 @@
+                                                        References
+
+Sites used for this assignment
+
+http://www.tldp.org/HOWTO/NCURSES-Programming-HOWTO/
+
+
+Textbooks used for this assignment
+
+Programmer's Guide to NCurses 
+
+
+Joline Barrett - Friend. Helped her understand the collision concept (mvinch).

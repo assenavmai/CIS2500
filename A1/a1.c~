@@ -1,0 +1,34 @@
+#include <ncurses.h>
+
+int main(void)
+{
+    int gridHeight, gridWidth, i;
+
+    gridHeight = 25;
+    gridWidth = 25;
+
+    initscr();
+
+    getmaxyx(stdscr, gridHeight, gridWidth);
+    
+    for (i=0; i<gridWidth; i++)
+    {
+        mvaddch(0, i, '%');
+    }
+   for (i=0; i<gridHeight; i++)
+   {
+        mvaddch(i, 0, '%');
+        mvaddch(i, gridWidth, '%');
+   }
+   for (i=0; i<gridWidth; i++)
+   {
+         mvaddch(gridHeight, i, '%');
+   }
+
+/*end of code example*/
+ refresh();
+ getch(); /*does nothing but stop the program from exiting until you've had a chance to see what it did*/
+ endwin();
+    return  0;
+}
+

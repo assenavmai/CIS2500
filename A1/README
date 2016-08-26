@@ -1,0 +1,40 @@
+****************************************************
+Vanessa White		0832498
+CIS2500    			A1
+January 24th, 2013
+****************************************************
+
+
+************
+Compilation
+************
+In the LTX Terminal, cd to CIS2500/coursework/A1. Then, type in make to compile.
+
+***********************
+Running the program(s)
+***********************
+Type in bin/run to compile the program.
+
+The program is going to prompt the user to enter their name and they press enter to input it.
+Wait 5 seconds then the maze will show up.
+
+The controls are:
+
+i - up
+j - left
+k - down
+l - left
+
+Press q to quit.
+
+The user continues to move throughout the maze until they real the end.
+
+When the user reaches the end of the maze it will congratulate them and they have to press q to quit.
+
+During anytime of the maze they can press q to quit. 
+
+
+*****************
+Known Limitations
+*****************
+Cannot quit before they enter their name
